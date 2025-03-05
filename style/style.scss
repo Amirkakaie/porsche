@@ -56,7 +56,120 @@ header{
 
 }
 
+.hero{
+    border-radius: 13px;
 
+    border: dashed $backcolor-dash 2px;
+    border-top: none;
+    margin-top: 30px;
+    
+    .hero-img{
+
+
+
+        
+        img{
+            width: 420px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border-radius: 13px;
+        }
+
+        button{
+            background-color: $backcolor-sec;
+            padding: 18px 32px;
+            border: dashed $backcolor-dash 0.2px;
+            position: absolute;
+            right: 320px;
+            top: 360px;
+            border-radius: 12px;
+        }
+    }
+
+
+    .categorys{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        
+        padding-top: 40px;
+        button{
+            padding: 10px 20px;
+            background-color: transparent;
+            border: dashed $backcolor-dash 1px;
+            color: #ffffff;
+            border-radius: 10px;
+        }
+    }
+
+    .seo-box{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+        padding: 20px;
+        align-items: center;
+        
+        h1{
+            color: #ffffff;
+            
+            
+        }
+        p{
+            color:#676665 ;
+            
+        }
+    }
+
+    .point{
+
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        padding-top: 30px;
+
+        .point-top{
+            display: flex;
+            justify-content: space-around;
+
+            div{
+                display: flex;
+                align-items: start;
+                justify-content: center;
+                flex-direction: column;
+                border: $backcolor-dash dashed 1.5px;
+                h3{
+                    color: #ffffff;
+                }
+                p{
+                    color:#676665;
+                }
+            }
+        }
+
+        .point-botton{
+            display: flex;
+            justify-content: space-around;
+
+            div{
+                display: flex;
+                align-items: start;
+                justify-content: center;
+                flex-direction: column;
+                border: $backcolor-dash dashed 1.5px;
+                h3{
+                    color: #ffffff;
+                }
+                p{
+                    color:#676665;
+                }
+            }
+        }
+    }
+
+}
 
 
 

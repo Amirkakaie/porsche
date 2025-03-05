@@ -6,6 +6,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Vazirmatn:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>porsche</title>
     <link rel="stylesheet" href="style/style.css">
 </head>
@@ -15,16 +16,16 @@
 
         <header>
 
-            <div class="home-p">
+            <div data-aos="fade-right" data-aos-duration="2000" class="home-p">
                 <button class="home">Home</button>
                 <button class="products">Products</button>
             </div>
 
 
-            <img src="img/Logo (2).png" alt="">
+            <img data-aos="fade-down" data-aos-duration="2000" src="img/Logo (2).png" alt="">
 
 
-            <div class="cart-c">
+            <div data-aos="fade-left" data-aos-duration="2000" class="cart-c">
                 <button class="cart">
                     <img src="img/Union (1).png" alt="">
                 </button>
@@ -34,7 +35,7 @@
             </div>
 
 
-            <button class="ham">
+            <button data-aos="fade-down" data-aos-duration="2000" class="ham">
 
                 <div class="ham-line"></div>
                 <div class="ham-line"></div>
@@ -45,12 +46,82 @@
             
         </header>
 
+        <section class="hero">
+
+            <div class="hero-img">
+                <img data-aos="fade-left" data-aos-duration="2000" src="img/Image (6).png" alt="">
+
+                <button data-aos="fade-right" data-aos-duration="2000" class="">Shop Now</button>
+            </div> 
+
+            <div class="hero-category">
+
+                <div class="categorys">
+                    <button>All</button>
+                    
+                    
+                    <button>Mens</button>
+                    
+                    <button>Womens</button>
+                    
+                    <button>Kids</button>
+
+
+
+                </div>
+
+
+                <div class="seo-box">
+                    <h1>Elevate Your Style with StyleLoom</h1>
+                    <p>Explore a world of fashion at StyleLoom, where trends meet affordability. Immerse yourself in the latest styles and seize exclusive promotions.</p>
+                </div>
+
+
+
+            </div>
+
+            <div class="point">
+
+                <div class="point-top">
+                    <div>
+                        <h3>1,500 +</h3>
+                        <p>Fashion Products</p>
+                    </div>
+                    <div>
+                        <h3>50 +</h3>
+                        <p>New arrivals every month.</p>
+                    </div>
+                </div>
+
+                <div class="point-botton">
+
+                    <div>
+                        <h3>30%</h3>
+                        <p>OFF on select items.</p>
+                    </div>
+                    <div>
+                        <h3>95%</h3>
+                        <p>Customer Satisfaction Rate</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </section>
+
+
+
 
     </main>
 
 
 
 
-
-</body>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+</body> 
 </html>
